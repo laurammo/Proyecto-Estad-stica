@@ -1,8 +1,8 @@
 # Proyecto-Estadistica
 ## Análisis de una base de datos de alimentos y nutrientes con respecto al consumo y prevalencia de enfermedades 
-Exploramis una base de datos que contiene tanto información sobre datos descriptivos, consumo de alimentos y nutrientes como la prevalencia de alguna enfermedad (por ejemplo, diabetes, obesidad o enfermedad cardiovascular).
+Exploramos una base de datos que contiene tanto información sobre datos descriptivos, consumo de alimentos y nutrientes como la prevalencia de alguna enfermedad (por ejemplo, diabetes, obesidad o enfermedad cardiovascular).
 ### PCA de los datos de alimentos y nutrientes
-Utilizamos la librería correspondiente para realizar el PCA de los datos y los estandarizarmos antes de aplicar el PCA para que todas las variables tengan la misma escala.
+Utilizamos la librería correspondiente para realizar el PCA de los datos y los estandarizarmos previamente para que todas las variables tengan la misma escala.
 ### Gráficos descriptivos de los componentes principales
 Representamos visualmente los resultados del PCA, incluyendo gráficos descriptivos o heatmaps de las cargas por componentes que aporten información relevante a los resultados. 
 ### Tabla descriptiva con las variables más importantes
