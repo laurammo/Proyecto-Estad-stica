@@ -1,1 +1,31 @@
+Variable	Etiqueta	Tipo de variable	Valores de variables categóricas
+id	número de identificación	continua	-
+altura	altura en cm	continua	-
+peso	peso en kg	continua	-
+IMC	índice de masa corporal	continua	-
+sexo	hombre/mujer	categórica	1 hombre; 2 mujer
+edad	edad en años	continua	-
+estado_civil	categorías de estado civil	categórica	0 soltero; 1 casado; 2 viudo; 3 separado; 4 divorciado
+tabaco	hábito tabáquico	categórica	0 nunca; 1 fumador; 2 exfumador; 3 missing; 4 fumador + exfumadores
+colesterol	niveles sanguíneos de colesterol	categórica	0 nunca; 1 <25 años; 2 25-44 años; 3 45-64 años; 4 >=65 años
+hdl	niveles sanguíneos de HDL-c	categórica	0 no me hecho análisis; 1 no recuerdo; 2 <35 (bajo); 3 36-60 (normal); 4 >60 (alto)
+HTA	edad a la que tuvo HTA	categórica	0 nunca; 1 <25 años; 2 25-44 años; 3 45-64 años; 4 >=65 años
+hipercolesterolemia	edad a la que tuvo hipercolesterolemia	categórica	0 nunca; 1 <25 años; 2 25-44 años; 3 45-64 años; 4 >=65 años 
+hipertrigliceridemia	edad a la que tuvo hipertrigliceridemia	categórica	0 nunca; 1 <25 años; 2 25-44 años; 3 45-64 años; 4 >=65 años 
+ECV_prev	prevalencia de ECV	categórica	0 no; 1 si
+diab_prev	prevalencia de diabetes	categórica	0 no; 1 si
+hta_prev	prevalencia de HTA	categórica	0 no; 1 si
+depres_prev	prevalencia de depresión	categórica	0 no; 1 si
+FA_prev	prevalencia de fibrilación auricular	categórica	0 no; 1 si
+cancer_prev	prevalencia de cáncer	categórica	0 no; 1 si
+METs_h_semana	actividad física medida en METs-h a la semana	continua	-
+cereales	consumo de cereales en gramos al día	continua	-
+verdura	consumo de verdura en gramos al día	continua	-
+fruta	consumo de fruta en gramos al día	continua	-
+pescado	consumo de pescado en gramos al día	continua	-
+legumbre	consumo de legumbre en gramos al día	continua	-
+lacteos	consumo de lácteos en gramos al día	continua	-
+carnes	consumo de carnes en gramos al día	continua	-
+alimento1-131	consumo de alimento en gramos al día	continua	-
+nutriente1-19	consumo de nutriente en mg al día	continua	-
 
