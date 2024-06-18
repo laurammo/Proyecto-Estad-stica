@@ -4,6 +4,8 @@ library(dplyr)   # Para realizar operaciones con dataframes y trabajar con pipes
 library(tidyr)
 library(tidyverse)
 
+# Prueba push
+
 # Importación y procesado de datos
 data_act3 <- read.csv("mubio02_act3_alimentos_nutrientes_4900.csv",
                       header = TRUE, stringsAsFactors = FALSE, sep = ",") %>%
