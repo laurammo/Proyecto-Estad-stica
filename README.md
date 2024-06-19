@@ -1,4 +1,5 @@
 # Proyecto-Estadistica
+##
 ## Análisis de una base de datos de alimentos y nutrientes con respecto al consumo y prevalencia de enfermedades 
 Exploramos una base de datos que contiene tanto información sobre datos descriptivos, consumo de alimentos y nutrientes como la prevalencia de alguna enfermedad (por ejemplo, diabetes, obesidad o enfermedad cardiovascular).
 ### PCA de los datos de alimentos y nutrientes
