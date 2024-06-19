@@ -1,6 +1,5 @@
 rm(list=ls())
 
-
 # Librerías necesarias
 
 library(nortest)
