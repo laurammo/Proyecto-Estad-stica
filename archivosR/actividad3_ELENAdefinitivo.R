@@ -119,7 +119,6 @@ pca_result$rotation[top_10_PC3,3]
 pca_result$rotation[top_10_PC4,4]
 
 # AQUÍ YA TENEMOS LOS PC MÁS IMPORTANTES Y LOS ALIMENTOS Y NUTRIENTES MÁS INFLUYENTES. 
-# YO CREO QUE NO HAY QUE HACER MÁS.
 
 ################################################################################
 ######################## ANALISIS DESCRIPTIVO ##################################
