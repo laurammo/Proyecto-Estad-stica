@@ -263,3 +263,23 @@ or_confident <- exp(confint(modelo_logistica)) # intervalo de confianza de las O
 
 pseudo_R2_McFadden <- 1 - (modelo_logistica$deviance / modelo_logistica$null.deviance)
 cat("Pseudo R-cuadrado de McFadden:", pseudo_R2_McFadden, "\n")
+
+# Hacemos la tabla.
+library(gtsummary)
+select_gtsummary <- df_tablaPC %>% select(c(1:12, 19:28))
+
+tabla <- select_gtsummary %>%
+  tbl_strata(strata = name,
+     .tbl_fun = ~.x %>%
+         tbl_summary(by=PC,
+             label = list(
+               sexo ~ "sexo",
+               edad ~ "Edad (años)"),
+             percent = "row",
+             digits = list(edad ~ 1),
+             statistic = list (sexo ~ "{n}/{N} ({p}%)", 
+                                 edad ~ "{median} ({p25}-{p75})"),
+             type=list(sexo ~ "categorical")) %>%
+             add_p())
+
+tabla
