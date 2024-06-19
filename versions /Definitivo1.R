@@ -14,7 +14,25 @@ library(gtsummary)
 library(devtools)
 library(gt)
 
-## PRUEBAS DE NORMALIDAD
+rm(list=ls())
+
+# Librerías necesarias
+
+library(nortest)
+library(dplyr)   
+library(tidyr)
+library(tidyverse)
+library(stats)
+library(psych)
+library(factoextra)
+library(gtsummary)
+library(devtools)
+library(gt)
+
+#############################################################################
+###################### PRUEBA DE NORMALIDAD #################################
+#############################################################################
+
 # Importar los datos 
 
 data_act3 <- read.csv("mubio02_act3_alimentos_nutrientes_4900.csv",
@@ -46,6 +64,7 @@ for (i in 1:length(columnas_alimentos)) {
 }
 
 pvalor_alimentos #p-valor <0.001 = no cumple la normalidad, ni de manera conjunta ni separada
+
 
 #############################################################################
 ###################### ANALISIS PCA #########################################
