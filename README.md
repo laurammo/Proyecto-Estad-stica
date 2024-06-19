@@ -13,3 +13,5 @@ Construimos el modelo de regresión logística, donde la variable objetivo es la
 ### Análisis de los resultados 
 Analizamos el modelo de regresión logística obtenido, evaluando la calidad, además de las funciones específicas para sacar los parámetros (coeficientes exponenciados, IC 95 %, valores p) de cada variable.
 
+CAMBIOS RAMA DE PRUEBA HELLO WORLD
+
