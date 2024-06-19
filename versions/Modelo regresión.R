@@ -8,6 +8,7 @@ library(gtsummary)
 library(devtools)
 library(gt)
 
+
 data_act3 <- read.csv("mubio02_act3_alimentos_nutrientes_4900.csv",
                       header = TRUE, stringsAsFactors = TRUE, sep = ",") %>%
   subset(select = -id)
